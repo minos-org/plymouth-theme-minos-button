@@ -8,6 +8,8 @@
 
 ## Quick start
 
+### On Ubuntu (only LTS releases)
+
 1. Set up the minos archive:
 
    ```
@@ -22,13 +24,13 @@
 
 3. Enjoy ☺!
 
-## Uninstalling
+### On other Linux distributions
 
-If by any reason you dislike [plymouth-minos-button](https://github.com/minos-org/plymouth-theme-minos-button) you can uninstall it as any other deb package:
+1. Type `sudo mkdir -p /lib/plymouth/themes/minos-button/`
 
-   ```
-   $ sudo apt-get remove plymouth-theme-minos-button
-   ```
+2. Copy files `sudo cp *png *.plymouth *.script /lib/plymouth/themes/minos-button/`
+
+3. Set the default theme and rebuild the initramfs file `plymouth-set-default-theme -R minos-button`
 
 ## Feedback
 
