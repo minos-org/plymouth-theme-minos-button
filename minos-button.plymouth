@@ -4,5 +4,5 @@ Description=Minos button plymouth theme
 ModuleName=script
 
 [script]
-ImageDir=/lib/plymouth/themes/minos-button
-ScriptFile=/lib/plymouth/themes/minos-button/minos-button.script
+ImageDir=/usr/share/plymouth/themes/minos-button
+ScriptFile=/usr/share/plymouth/themes/minos-button/minos-button.script
